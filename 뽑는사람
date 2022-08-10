@@ -11,9 +11,8 @@ public class 뽑는사람 {
 		//로또머신 객체 생성
 		로또머신 rottoMachine = new 로또머신();
 		
-		rottoBall.볼();
 		for(int i=0;i<6;i++) {
-			rottoMachine.번호섞기();
+			rottoMachine.번호섞기(rottoBall.getBall());
 			rotto[i] = rottoMachine.번호뽑기();
 		}
 		
