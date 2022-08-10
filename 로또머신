@@ -21,7 +21,7 @@ public class 로또머신{
 		//이미 뽑은 공이면 뽑지 않았던 공이 나올 때 까지 index를 다시 뽑는다.
 		if(ball[index] == 0) {
 			while(ball[index] == 0) {
-				index = rd.nextInt(10);
+				index = rd.nextInt(45);
 			}
 		}
 		
